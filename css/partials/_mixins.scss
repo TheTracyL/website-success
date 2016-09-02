@@ -1,0 +1,5 @@
+// Like this @include fontawesome("\f0ad");
+@mixin fontawesome($arguement...) {
+    content: $arguement;
+    font-family: FontAwesome;
+}
